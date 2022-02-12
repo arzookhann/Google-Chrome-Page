@@ -251,3 +251,25 @@ body {
    margin-top: .35rem;
    width: .9rem;
 }
+
+@media screen and (max-width: 545px) {
+
+   .container-search-bar {
+   width: 25rem;
+   }
+
+   .container-shortcuts {
+      width: 25rem;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   
+   .container-search-bar {
+   width: 20rem;
+   }
+
+   .container-shortcuts {
+      width: 20rem;
+   }
+}
