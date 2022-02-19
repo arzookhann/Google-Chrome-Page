@@ -73,7 +73,7 @@ body {
 
 /************* Search Box **********************/
 
- .container-search-bar {
+.container-search-bar {
    background: #fff;
    border-radius: 2rem;
    box-shadow: 0 .1rem .3rem .1rem rgba(0,0,0,.12);
@@ -112,15 +112,16 @@ body {
 }
 
 .container-search-bar .search-history-box {
-   margin-top: .8rem;
    max-height: 28rem;
    opacity: 0;
    overflow-y: auto;
    pointer-events: none;
+   display: none;
 }
 
 .container-search-bar.active .search-history-box {
    opacity: 1;
+   display: block;
    pointer-events: auto;
 }
 
