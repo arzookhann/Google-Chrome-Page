@@ -99,15 +99,16 @@ body {
    width: 100%;
 }
 
-.input-icon {
-   align-items: center;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   margin-left: 1.3rem;
-   margin-right: 1.3rem;
-   margin-top: -1.9rem;
+.search-icon {
+   position: absolute;
+   top: .92rem;
+   left: 1.3rem;
+}
+
+.mic-icon {
+   position: absolute;
+   top: .92rem;
+   right: 1.3rem;
 }
 
 .container-search-bar .search-history-box {
